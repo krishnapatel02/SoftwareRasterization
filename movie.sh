@@ -1,0 +1,1 @@
+ffmpeg -r 30 -s 1000x1000 -i ./proj1F_frame%04d.pnm -vcodec libx264 -crf 17 -pix_fmt yuv420p proj1F.mp4
